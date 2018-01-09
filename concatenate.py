@@ -8,7 +8,7 @@ To use, please type in:
 The script will only look at files that are within
 folders that are one level below the directory supplied
 to the script. For example, if no argument is given to
-the script, script will parse all folders within the 
+the script, script will parse all folders within the
 current working directory as such:
 
     ./output_folder1/output_file1
@@ -16,6 +16,7 @@ current working directory as such:
     ./output_folder2/output_file1
     ./output_folder2/output_file2
     ./output_folder_n/output_file_n
+
 
 """
 
@@ -70,4 +71,3 @@ def combineFiles(file):
 
 if __name__ == "__main__":
     main()
-
